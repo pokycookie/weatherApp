@@ -1,0 +1,20 @@
+@import "./reset.scss";
+@import "./weather.scss";
+@import "./GeoLocation.scss";
+@import "./variable";
+
+.root {
+  width: 100vw;
+  height: 100vh;
+  color: $gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .app {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid $gray;
+    border-radius: 10px;
+  }
+}
